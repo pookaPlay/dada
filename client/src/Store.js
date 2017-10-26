@@ -2,8 +2,7 @@ import { easyStore } from 'react-easy-state'
 import RestStore from './RestStore'
 
 export const API_ROOT = 'http://localhost:8080/api/v1';
-export const API_KEY = 'Srz4ZNQNLJBdYkEv6hLUSkB6dlH1sC5PTbrORFEN';
-//export const API_KEY = 'r213aL2vm1tvaM7WzIMdjxOW0fBzolc2THdVnBUX';   // dada
+export const API_KEY = '';
 export const COLLECTION_NAME ='test';
 
 export const DEFAULT_CLASS_COLORS = ['#B80000', '#00B800', '#0000B8', '#B8B800', '#00B8B8', '#B800B8', '#000000', '#B8B8B8']
