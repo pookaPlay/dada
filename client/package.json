@@ -1,0 +1,42 @@
+{
+  "name": "i2web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "leaflet": "^1.2.0",
+    "leaflet-draw": "^0.4.10",
+    "react": "^15.6.1",
+    "react-color": "^2.13.8",
+    "react-dom": "^15.6.1",
+    "react-easy-state": "^3.0.1",
+    "react-icons": "^2.2.5",
+    "react-leaflet": "^1.6.3",
+    "react-leaflet-control": "^1.4.0",
+    "react-leaflet-draw": "^0.16.0",
+    "react-scripts": "1.0.11",
+    "react-style-proptype": "^3.0.0",
+    "react-toolbox": "^2.0.0-beta.12"
+  },
+  "reactToolbox": {
+    "include": [
+      "LIST"
+    ],
+    "customProperties": {
+      "color-background": "rgb(0, 0, 0)",
+      "color-text": "rgb(230, 15, 15)", 
+      "color-text-secondary": "rgb(230, 15, 15)",
+      "color-divider": "rgb(0, 0, 0)"
+    },
+    "output": "src/assets/dada-list"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "toolbox": "react-toolbox-themr"
+  },
+  "devDependencies": {
+    "react-toolbox-themr": "^1.0.2"
+  }
+}

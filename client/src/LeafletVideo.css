@@ -1,0 +1,14 @@
+
+.leaflet-container {
+  height: 800px;
+  width: 100%;
+  margin: 0 auto;  
+  }
+ 
+ .leaflet-draw-tooltip {
+    display: none;
+  }
+  
+ .sr-only {
+    display: none;
+  }
